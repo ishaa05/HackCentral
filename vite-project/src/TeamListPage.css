@@ -1,0 +1,168 @@
+.team-list-page {
+    font-family: 'Inter', sans-serif;
+    padding: 40px;
+    background: linear-gradient(to bottom right, #f3f4f6, #e9d8fd);
+    min-height: 100vh;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+    color: #5a2d89;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .page-header p {
+    color: #6b46c1;
+    font-size: 1.1rem;
+  }
+  
+  .feedback-table-container {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .feedback-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .feedback-table th {
+    background-color: #f7fafc;
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    color: #4a5568;
+    border-bottom: 2px solid #e2e8f0;
+    white-space: nowrap;
+  }
+  
+  .feedback-table td {
+    padding: 16px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: middle;
+  }
+  
+  .team-name-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .team-avatar {
+    width: 40px;
+    height: 40px;
+    background: #e2e8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #5a2d89;
+  }
+  
+  .input-score {
+    width: 80px;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+  
+  .input-score:focus {
+    border-color: #6b46c1;
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.2);
+    outline: none;
+  }
+  
+  .input-feedback {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    resize: vertical;
+    min-height: 40px;
+    transition: all 0.2s;
+  }
+  
+  .input-feedback:focus {
+    border-color: #6b46c1;
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.2);
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: #6b46c1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #5a2d89;
+    transform: translateY(-1px);
+  }
+  
+  .submit-button:active {
+    transform: translateY(0);
+  }
+  
+  .score-badge {
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 1024px) {
+    .team-list-page {
+      padding: 20px;
+    }
+  
+    .feedback-table-container {
+      border-radius: 12px;
+      margin: 0 -20px;
+    }
+  
+    .feedback-table th,
+    .feedback-table td {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-table-container {
+      margin: 0 10px;
+    }
+  
+    .team-name-cell {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .submit-button {
+      width: auto;
+    }
+  }
+  
+    
+    

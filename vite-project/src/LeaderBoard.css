@@ -1,0 +1,37 @@
+.leaderboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .leaderboard-table th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .leaderboard-table td {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .leaderboard-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .gold-score { color: #FFD700; font-weight: bold; }
+  .silver-score { color: #C0C0C0; font-weight: bold; }
+  .bronze-score { color: #CD7F32; font-weight: bold; }
+  .low-score { color: #666; }
+  
+  .total-score {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
